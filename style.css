@@ -1,0 +1,12 @@
+body {
+    background-color: antiquewhite;
+}
+
+body h2 {
+    font-style: italic;
+}
+
+body p {
+    font-size: large;
+    font-weight: 300;
+}
