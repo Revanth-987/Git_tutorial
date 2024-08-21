@@ -1,0 +1,11 @@
+$ git clone <paste link here>         // the http link from code-repos
+$ git status                        // get the status of repos
+$ git add <fileName>  or $ git add .  // dot(.) to upload change or file to repos
+$ git commit -m "text here"         // to update at remote repos and a messege to visible 
+$ git push                          // to push from remote repo to main repos
+$ git pull                          // to pull change from main repo to VSC 
+$ git checkout <branchName>           // to switch btw branches
+$ git merge main                    //merge files from main brance to other branches 
+$ git branch <branchName>             // to create branch using Git bash 
+$ git branch                        // to check about branch       
+$ git branch -m <oldname> <newname>    // to change name of branch   
