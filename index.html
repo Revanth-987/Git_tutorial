@@ -3,23 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GITHUB AND GIT TUTORIALS</title>
+    <title>REAL TIME CHARACTER COUNTER</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>working on git an git hub</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam a esse quia ratione eius inventore deserunt
-        eligendi dolorum harum reprehenderit, aliquid totam consequatur eum autem ea nulla neque quis odit! Lorem ipsum,
-        dolor sit amet consectetur adipisicing elit. Cumque, vitae? Quas velit adipisci fugiat
-        libero similique quia ab asperiores repellendus commodi quisquam, consectetur omnis rem natus veniam esse!
-        Illum, quos? lorem dolorum harum reprehenderit, aliquid totam consequatur eum autem ea nulla neque quis odit! Lorem ipsum,
-        dolor sit amet consectetur adipisicing elit. Cumque, vitae? Quas velit adipisci fugiat
-        libero similique quia ab asperiores  </p>
-    <p> below click is to check on button click and function is in javascript </p>
-    <button onclick="gitCheck()"> click </button>
+    <div class="container">
+        <h2>Real Time CHARACTER Counter</h2>
+        <textarea id="Textarea" class="textarea" placeholder="write something to start to count..."
+            maxlength="100"></textarea>
+        <div class="character_counter">
+            <p> Total Charater: <span class="Total_character" id="Total_character">0</span> </p>
+            <p> Remaining character: <span class="remaining_character" id="remaining_character">100</span></p>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
 </body>
-<script src="javascript.js"></script>
 
 </html>
