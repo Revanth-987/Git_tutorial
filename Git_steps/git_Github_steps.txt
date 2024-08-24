@@ -9,3 +9,4 @@ $ git merge main                    //merge files from main brance to other bran
 $ git branch branchName             // to create branch using Git bash 
 $ git branch                        // to check about branch              
 $ git branch -m <oldname> <newname>    // to change name of branch   
+$ git push origin HEAD                  // to push to branch if renamed
