@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days Completed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> Your life is presious</h1>
+        <br>
+        <p>Assuming you were LUCKY enough to pass these days & you are alive</p>
+        <div class="displayResult">
+            <div class="answer">
+                <h4>You Have Conpleted </h4>
+                <h2 id="result">0</h2>
+                <p>Days and still running to DESTINATION.....</p>
+            </div>
+        </div>
+
+        <form class="formStyle">
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" name="startDate">
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" name="endDate" required><br><br>
+        </form>
+        <div class="buttons">
+            <button id="calBtn" class="btn" onclick="calculateDate()">Calculate</button>
+            <button id="resetBtn" class="btn" onclick="pageReset()">Reset</button>
+            <a href="index.html" class="refresh"> REFRESH</a>
+        </div>
+    </div>
+</body>
+<script src="javascript.js"></script>
+
+</html>

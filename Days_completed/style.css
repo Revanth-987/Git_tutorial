@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
+* {
+    font-family: "Edu VIC WA NT Beginner";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('tree.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*the whole thing in the box is effecirt */
+.container {
+
+    text-align: center;
+    color: #fff;
+    width: 80vw;
+    /* background-color: rgb(216, 169, 83); */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.8);
+    overflow: hidden;
+}
+
+.container h1,
+p {
+    color: #fff;
+    text-shadow: 2px 2px 2px #030303;
+}
+
+.displayResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #160f0f;
+    height: 160px;
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#result {
+    font-size: 2rem;
+}
+
+.formStyle {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.buttons {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background-color: orange;
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: black;
+    /* color is for text here  */
+    color: white;
+}
+
+#resetBtn {
+    color: white;
+    background-color: rgb(58, 57, 57);
+
+}
+
+#resetBtn:hover {
+    background-color: forestgreen;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.answer {
+    display: none;
+}
+
+.answer.active {
+    display: block;
+}
+
+.refresh {
+    display: none;
+}
+
+@media (max-width:800px) {
+    .container {
+        width: 80vw;
+    }
+
+}
